@@ -1,0 +1,81 @@
+{
+    "version": 1,
+    "disable_existing_loggers": false,
+
+    "configdetails":[
+        {
+            "primaryFontfamily":"'satisfy',cursive",
+            "fontfamily":"'satisfy',cursive",
+            "secondaryColor":"#dc143c",
+            "tartiaryColor":"#2e3333"
+        }
+    ],
+
+    "landinPage":[
+        
+            {"job":"BACKEND DEVELOPER"},
+            {"imgurl":"https://people.com/thmb/sfYGMEztrLDUQmFWM8J8OpjoMrw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(732x0:734x2)/emma-watson-318c97f889294de097e19de43416013a.jpg"},
+           {"intro":"Intermidiate Level experience and knowledge <br> in backend web development, producing high <br>quality work"}
+
+        
+    ],
+
+    "aboutme":[
+        
+           {"projects":"10+"},
+            {"experience":"02+"},
+            {"imgurl":"https://people.com/thmb/sfYGMEztrLDUQmFWM8J8OpjoMrw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(732x0:734x2)/emma-watson-318c97f889294de097e19de43416013a.jpg"},
+            {"aboutme":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo provident eaque placeat esse optio modi quod assumenda? Rem amet possimus quibusdam aut est in sit, vero inventore, quae aperiam perspiciatis. Nobis error atque ducimus,"}
+
+        
+
+    ],
+    "backend":[
+        {"php":"80%"},
+        {"django":"34%"},
+        {"node":"54%"}
+    ],
+    "frontend":[
+        {"html":"80%"},
+        {"css":"60%"},
+        {"react":"54%"},
+        {"js":"64%"}
+    ],
+
+    "contactme":[
+        
+            {"email":"emqarani@gmail.com"},
+            {"phone":"0729060186"}
+        
+    ],
+    "project1":[
+        {
+            "name":"name",
+            "description":"Lorem ipsum dolor sit arem ipsum dolor sit arem ipsum dolor sit amet exercitationem saepe. Debitis,optio quis.",
+            "imagepath":"imagepath",
+            "demourl":"demourl",
+            "githuburl":"github"
+        }
+    ],
+    "project2":[
+        {
+            "name":"name",
+            "description":"Lorem ipsum dolor sit arem ipsum dolor sit arem ipsum dolor sit amet exercitationem saepe. Debitis,optio quis.",
+            "imagepath":"imagepath",
+            "demourl":"demourl",
+            "githuburl":"github"
+        }
+    ],
+    "project3":[
+        {
+            "name":"name",
+            "description":"Lorem ipsum dolor sit arem ipsum dolor sit arem ipsum dolor sit amet exercitationem saepe. Debitis,optio quis.",
+            "imagepath":"imagepath",
+            "demourl":"demourl",
+            "githuburl":"github"
+        }
+    ]
+
+
+
+}

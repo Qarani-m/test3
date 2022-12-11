@@ -1,0 +1,263 @@
+
+@media screen and (max-width: 768px){
+    html{
+        /* overflow-x: hidden; */
+
+    }
+    body{
+
+        overflow-x: hidden;
+
+/*  */
+    }
+    .navbar{
+        width: 1vw;
+    }
+
+    #langingImg{
+        display: none;
+    }
+    #left{
+        margin-top: -10vh;
+        margin-left: -10vw;
+    }
+    #contactme_{
+        width: 35vw;
+        font-size: 1.2rem;
+    }
+    .moon{
+        top: 10vh;
+        left: 85vw;
+        position: fixed;
+    }
+    .moon img{
+        width:7vw
+    }
+    .links{
+        display: none;
+    }
+    .icons_top{
+        margin-left: -5vw;
+    }
+    .page1{
+        height: 70vh;
+    }
+    .aboutme{
+        height: 60vh;
+    }
+    .aboutme_title{
+        width:30vw;
+        height:5vh;
+    }
+    .title2{
+        margin-left:-10vw
+    }
+    #aboutimage{
+        display: none;
+    }
+    #aboutLongp{
+        padding-left: 2vw;
+        position: absolute;
+        left:-50vw;
+        top:-15vh;
+        width:85vw
+
+
+    }
+    .stats{
+        position: relative;
+        /* background-color: brown; */
+        left:-30vw;
+        width: 70vw;
+        top:3vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+    .download_cv{
+        position: absolute;
+        width:76vw;
+        left:-15vw;
+        top:10vh
+    }
+    
+    .coding{
+        background-color: blue;
+        width: 70vw;
+    }
+
+
+
+
+
+
+
+
+
+    #back,#front{
+        margin-left: -25vw;
+        width:40vw
+    }
+
+
+.skills{
+    width:40vw;
+    display:none;
+
+}
+
+
+    .mainskill{
+        /* background-color: red; */
+        width:100vw;
+        position:relative;
+        left:-10vw;
+        height:40vh
+    }
+    .range1,.range2{
+        width: 100vw;
+        /* background-color: black; */
+        margin-top: -10vh;
+        height:30vh
+    }
+    .gray{
+        width: 100%;
+    }
+    .unit{
+        margin-left:-15vw;
+        width: 70vw;
+    }
+
+
+.projects_main{
+    height: 50vh;
+}
+
+.projects{
+    height: 50vh;
+}
+
+.description{
+    padding-top: 0vh;
+}
+
+.prbtn{
+    /* background-color: aqua; */
+    width: 60vw;
+    position: absolute;
+    left: 20vw;
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+}
+
+.prbtn button{
+    width: 40vw;
+    margin-top:2vh;
+    height: 3vh;
+}
+.projects_main_body{
+    margin-left:-13vw
+}
+
+
+.footerbar{
+    display: none;
+}
+.footer .proffesion{
+    margin-left: 5vw;
+    width: 60vw;
+    position: absolute;
+}
+
+.contactcontainer{
+    height: 60vh;
+}
+
+
+
+.main_contacts{
+    position: relative;
+    /* background-color: yellowgreen; */
+    height: 60vh;
+}
+
+#icon4,#icon5{
+    display: none;
+}
+.values_{
+    margin-left: 10vw;
+    position: absolute;
+    top: 50vh;
+}
+.call{
+    margin-left: -10vw;
+}
+.mail_{
+    margin-left: 22vw;
+
+}
+.formdiv2{
+    /* background-color: rebeccapurple; */
+}
+
+
+
+
+
+.formdiv{
+    /* background-color: violet; */
+    width: 100%;
+    position: absolute;
+    left: 8vw;
+}
+.formdiv input{
+    width: 80vw;
+}
+#senderEmail,#senderName{
+    width: 40vw;
+}
+
+textarea{
+    width: 80vw;
+}
+button[type='submit']{
+    width: 80vw;
+    margin-top: 1vh;
+    border-radius: 10vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ::-webkit-scrollbar {
+display: none;
+      }
+
+
+
+      ::-webkit-scrollbar-track {
+        display:none;
+      }
+    ::-webkit-scrollbar-thumb {
+        display: none;
+      }
+}

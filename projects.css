@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Permanent+Marker&family=Satisfy&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+button,input[type='submit']{
+    cursor: pointer;
+    font-family: 'satisfy',cursive;
+}
+button a{
+    color: #fff;
+    text-decoration: none;
+}
+.bigcontainer{
+    position:relative;
+}
+.contactcontainer{
+    height:65vh;
+    width:100%;
+
+
+}
+.projects{
+    height: 80vh;
+    width: 100%;
+    position:absolute;
+    transition:all 1.5s ease;
+
+}
+.project_header{
+    text-align: center;
+
+}
+.title{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.project_header p:nth-child(2){
+    font-size: 1.3rem;
+    font-weight: 600;
+    opacity:0.5
+}
+.projects_main{
+    padding:2vh 15vw 0vw 15vw;
+    height: 70vh;
+}
+.projects_main_body{
+    height:50vh;
+    display:flex;
+    gap:3vw;
+    padding-top:5vh;
+    justify-content:space-around;
+}
+.leftarrow, .rightarrow,.leftarrow img, .rightarrow img{
+    width:5vw;
+    height:15vh;
+    cursor:pointer;
+}
+.leftarrow, .rightarrow{
+    margin-top:7vh
+}
+.thumnail,.thumnail img{
+    width:20vw;
+    height:30vh;
+    border-radius:2vh;
+}
+.description{
+    width:24vw;
+    height:30vh;
+    padding-top:5vh;
+}
+.description p:nth-child(1){
+    font-size:1.2rem;
+    font-weight:900;
+}
+.description p:nth-child(2){
+    font-size:1.1rem;
+    opacity:0.5
+}
+.description button{
+    border:none;
+    background:crimson;
+    height:5vh;
+    width:10vw;
+    border-radius:1.8vh;
+    margin-top:5vh;
+    color:#fff;
+    font-family: "Satisfy", cursive;
+    margin-right:1vw;
+}
+.dots{
+    width:5vw;
+    display:flex;
+    justify-content:space-between;
+    margin-top:-3vh;
+    margin-left:32vw
+}
+.dots span{
+    background:gray;
+    width:0.5vw;
+    height:0.5vw;
+    border-radius:50%
+}
+::-webkit-scrollbar {
+    width:1vw;
+    height:1vw;
+  }
+  ::-webkit-scrollbar-track {
+    display:none;
+  }
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #b30000;
+  }
