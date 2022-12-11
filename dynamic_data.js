@@ -56,7 +56,7 @@ function dynamicdata(){
     completeProjects.innerHTML=aboutme_values['projects']
     phoneNumber.innerHTML=contact_values['phone']
     phoneNumber.setAttribute("href","tel:"+contact_values['phone'])
-    emailAddress.innerHTML=contact_values['email']
+    emailAddress.innerHTML="con"
 
 
 }
