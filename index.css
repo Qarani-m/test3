@@ -83,7 +83,10 @@ body {
   left: 90vw;
 }
 .sun,.moon{
+  position: absolute;
+  z-index:99;
   cursor:pointer
+  z
 }
 .moon .img1 {
   position: absolute;

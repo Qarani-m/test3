@@ -1,17 +1,172 @@
 
-@media screen and (max-width: 768px){
-    html{
-        /* overflow-x: hidden; */
 
+.small-device-title{
+    display: none;
+    font-size: 2.1rem;
+
+}
+.small-device-title2{
+    display: none;
+    font-size: 2.1rem;
+
+}
+
+
+
+@media screen and (max-width: 361px){
+    *{
+        /* outline: 1px solid blue; */
+    }
+    .mightydiv{
+        overflow-x: hidden;
+
+    }
+    .aboutme{
+        /* outline: 2px solid blue;   */
+        margin-top: 10vh;
+        padding-bottom: -10vh;
+        height: 80vh;
+        margin-left: 5vw;
+    }
+    .stats{
+        margin-top: 7vh;
+    }
+    .codding p,.proj p{
+        margin-top: -2vh;
+
+    }
+    .aboutme_title{
+        background-color: green;
+        margin-left:-23vw;
+        display: none;
+    }
+    .aboutt21{
+        opacity: 1;
+        font-size: 2.1rem;
+    }
+    
+    .aboutt2{
+        display: none;
+    }
+    .small-device-title{
+        display: block;
+        font-size: 3.1rem;
+        margin-left: -21vw;
+    
+    }
+    .small-device-title2{
+        display: block;
+        font-size: 1.1rem;
+        margin-left: -21vw;
+
+    
+    }
+    .skills_header_small{
+        margin-left: 13vw;
+        text-align: center;
+    }
+    
+   .description{
+    /* display: none; */
+    position: absolute;
+    width: 90vw;
+    text-align: center;
+    margin-top: 19vh;
+    margin-left:7vh;
+    width:100%;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+   .thumnail img{
+        height: 40vw;
+        width: 60vw;
+        margin-top: 2vh;
+        margin-left: 7vw;
+        margin-top: -10vw;
+   }
+ 
+   .rightarrow{
+    margin-left: 55vw;
+   }
+   .leftarrow{
+    margin-left: 15vw;
+   }
+   .contacts{
+    margin-top: -20vh;
+    background-color: red;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 768px){
+        .aboutme{
+            /* outline: 2px solid red; */
+        }
+
+    html{
+        scroll-behavior: smooth;
+    }
+    .contacts{
+        background-color: red;
+        margin-top: -20vh;
     }
     body{
 
         overflow-x: hidden;
 
-/*  */
+
+    }
+    .contacts{
+        margin-top: -20vh;
+        background-color: red;
+       }
+    .mightydiv{
+        overflow-x: hidden;
+
     }
     .navbar{
         width: 1vw;
+        position: static;
     }
 
     #langingImg{
@@ -103,7 +258,6 @@
 
 .skills{
     width:40vw;
-    display:none;
 
 }
 
@@ -146,7 +300,7 @@
     /* background-color: aqua; */
     width: 60vw;
     position: absolute;
-    left: 20vw;
+    left: 10vw;
     display: flex;
     justify-content: space-between;
     height: 8vh;
@@ -240,6 +394,38 @@ button[type='submit']{
 
 
 
+.description{
+    /* display: none; */
+    position: absolute;
+    width: 90vw;
+    text-align: center;
+    margin-top: 19vh;
+    margin-left:7vh;
+    width:100%;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+   .thumnail img{
+        height: 40vw;
+        width: 60vw;
+        margin-top: 2vh;
+        margin-left: 7vw;
+        margin-top: -10vw;
+   }
+ 
+   .rightarrow{
+    margin-left: 55vw;
+   }
+   .leftarrow{
+    margin-left: 15vw;
+   }
+
+
+
+
+
+
+
 
 
 
@@ -260,4 +446,87 @@ display: none;
     ::-webkit-scrollbar-thumb {
         display: none;
       }
+
+
+
+
+
+      .mightydiv{
+        overflow-x: hidden;
+
+    }
+    .aboutme{
+        /* outline: 2px solid blue;   */
+        margin-top: 10vh;
+        padding-bottom: -10vh;
+        height: 80vh;
+        margin-left: 5vw;
+    }
+    .stats{
+        margin-top: 7vh;
+    }
+    .codding p,.proj p{
+        margin-top: -2vh;
+
+    }
+    .aboutme_title{
+        background-color: green;
+        margin-left:-23vw;
+        display: none;
+    }
+    .aboutt21{
+        opacity: 1;
+        font-size: 2.1rem;
+    }
+    
+    .aboutt2{
+        display: none;
+    }
+    .small-device-title{
+        display: block;
+        font-size: 3.1rem;
+        margin-left: -21vw;
+    
+    }
+    .small-device-title2{
+        display: block;
+        font-size: 1.1rem;
+        margin-left: -21vw;
+
+    
+    }
+    .skills_header_small{
+        margin-left: 13vw;
+        text-align: center;
+    }
+    
+   .description{
+    /* display: none; */
+    position: absolute;
+    width: 90vw;
+    text-align: center;
+    margin-top: 19vh;
+    margin-left:7vh;
+    width:100%;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+   .thumnail img{
+        height: 40vw;
+        width: 60vw;
+        margin-top: 2vh;
+        margin-left: 7vw;
+        margin-top: -10vw;
+   }
+ 
+   .rightarrow{
+    margin-left: 55vw;
+   }
+   .leftarrow{
+    margin-left: 15vw;
+   }
+   .contacts{
+    margin-top: -20vh;
+    background-color: red;
+   }
 }

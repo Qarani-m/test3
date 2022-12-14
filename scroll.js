@@ -28,8 +28,7 @@ contacts.addEventListener("click",()=>{
 })
 contactme.addEventListener("click",()=>{
     if(screen.width <= 420){
-        alert(screen.width)
-        window.scrollTo(0,2850)
+        window.scrollTo(0,2070)
     }else{
         window.scrollTo(10,2350)
 
